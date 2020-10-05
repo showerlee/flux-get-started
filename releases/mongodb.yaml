@@ -21,6 +21,6 @@ spec:
     persistence:
       enabled: false
     securityContext:
-      enabled: true
-      fsGroup: 0
-      runAsUser: 0
+      fsGroup: 2000
+      runAsNonRoot: true
+      runAsUser: 1000
